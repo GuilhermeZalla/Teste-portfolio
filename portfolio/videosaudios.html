@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/developer.ico" type="image/x-icon">
+    <title>Videos e audios</title>
+</head>
+
+<body>
+    <main>
+        <h1>Exercício colocando vídeo</h1>
+        <h3>Vídeo de um servidor externo</h3>
+        <iframe width="520" height="315" src="https://www.youtube.com/embed/Jde-TFha0ko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h3>Vídeo de um servidor interno</h3>
+        <video width="520" poster="img/pic-field-in-fall.jpg" controls>
+            <source src="media/Meu Vídeo-1.m4v" type="video/mp4">
+            <source src="media/Meu Vídeo-1.mkv" type="video/mkv">
+            <source src="media/Meu Vídeo-1.webm" type="video/webm">
+            <source src="media/meu_vídeo.ogv" type="video/ogg">
+            <p>Infelizmente seu vídeo não foi reproduzido pois o seu navegador não suporta</p>
+        </video>
+        <h3>Audio em HTML5</h3>
+        <audio preload="metadata" controls>
+            <source src="media/Tatsuro Yamashita - Let's Kiss The Sun.mp3" type="audio/mpeg">
+            <p>Infelizmente não foi possível reproduzir audio no seu navegador</p>
+        </audio>
+        <img src="img/REGUA.png" alt="divisor de página">
+        <p>
+            <a href="exercicio2.html" target="_self" rel="prev" hreflang="pt-br"><img src="img/retornar.png" alt="símbolo para retornar a página incial"></a><br>
+            <a href="main.html" target="_self" rel="prev" hreflang="pt-br"><img src="img/menu.png" alt="símbolo do menu da página inicial"></a>
+        </p>
+    </main>
+</body>
+
+</html>

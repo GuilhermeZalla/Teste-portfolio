@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/developer.ico" type="image/x-icon">
+    <title>Imagem Flexivel</title>
+</head>
+
+<body>
+    <main>
+        <h1>Uso de imagem de forma flexível/dinâmica</h1>
+        <p>
+            <picture>
+                <source media="(max-width: 280px)" srcset="img/paisagem-p.png" type="image/png">
+                <source media="(max-width: 750px)" srcset="img/paisagem-m.png" type="image/png">
+                <img src="img/paisagem-g.png" alt="foto paisagem grande">
+            </picture>
+        </p>
+        <img src="img/REGUA.png" alt="divisor de página">
+        <p>
+            <a href="exercicio1.html" target="_self" rel="prev" hreflang="pt-br"><img src="img/retornar.png" alt="símbolo para retornar a página incial"></a><br>
+            <a href="main.html" target="_self" rel="prev" hreflang="pt-br"><img src="img/menu.png" alt="símbolo do menu da página inicial"></a>
+        </p>
+    </main>
+</body>
+
+</html>
